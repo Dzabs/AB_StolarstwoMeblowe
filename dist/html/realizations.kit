@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Group</title>
+    <link rel="icon" type="image/x-icon" href="dist/img/fav_icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+
+</head>
+
+<body>
+    <main>
+    <!-- @include 'nav-page.kit' -->
+
+    <div class="row">
+        <div class="column">
+          <img src="/dist/img/real1_1.jpg" alt="Nature" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="/dist/img/real1_2.jpg" alt="Snow" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="/dist/img/real1_3.jpg" alt="Mountains" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="/dist/img/real1_4.jpeg" alt="Lights" onclick="myFunction(this);">
+        </div>
+      </div>
+      
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    
+        <img id="expandedImg" style="width:100%">
+    
+        <div id="imgtext"></div>
+      </div>
+  
+    <!-- @include 'footer.kit' -->
+
+    </main>
+
+
+
+    <script src="dist/js/main.min.js"></script>
+
+</body>
+
+</html>
