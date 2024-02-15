@@ -2,53 +2,142 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forest Group</title>
-    <link rel="icon" type="image/x-icon" href="dist/img/fav_icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aleksy B. Stolarstwo meblowe</title>
+  <link rel="icon" type="image/x-icon" href="dist/img/fav_icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dist/css/style.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
 
 </head>
 
 <body>
-    <main>
+  <main>
     <!-- @include 'nav-page.kit' -->
 
-    <div class="row">
-        <div class="column">
-          <img src="/dist/img/real1_1.jpg" alt="Nature" onclick="myFunction(this);">
+    <section class="hero-img-realizations">
+      <div class="wrapper">
+
+        <h1>Moje realizacje</h1>
+        <div class="realization-container">
+          <div class="text-container">
+            <h2>Kuchnia</h2>
+            <p>Kuchnia oraz szafa w tym mieszkaniu jednoczą się ze sobą nowoczesnym i funkcjonalnym stylem
+              Meble od samego początku wymagały bardzo dokładnej analizy oraz przemyślanego projektu.</p>
+            <ul>
+
+              <li>Białe fronty <span>Aquaakryl antyfinger</span></li>
+              <li>Drewnopodobny laminat <span> dąb kamienny</span></li>
+              <li>Dwa kosze narożne <span>Magic Corner</span> oraz <span>Nerka Suplimo</span></li>
+              <li>18 szuflad w tym <span> 2 wewnętrzne</span> </li>
+            </ul>
+
+
+          </div>
+
+          <ul class="gallery">
+            <li class="thumbnail">
+              <img tabindex="0" src="dist/img/real1_1.jpg" alt="" />
+            </li>
+            <li class="thumbnail">
+              <img tabindex="0" src="dist/img/real1_2.jpg" alt="" />
+            </li>
+            <li class="thumbnail">
+              <img tabindex="0" src="dist/img/real1_3.jpg" alt="" />
+            </li>
+            <li class="thumbnail">
+              <img tabindex="0" src="dist/img/real1_4.jpg" alt="" />
+            </li>
+
+          </ul>
+
+          <div class="popup hidden">
+            <button aria-label="Zamknij popup" class="popup__close">X</button>
+            <img src="" alt="" class="popup__img" />
+            <button aria-label="Poprzednie zdjęcie" class="popup__arrow popup__arrow--left">
+              < </button>
+                <button aria-label="Następne zdjęcie" class="popup__arrow popup__arrow--right">
+                  >
+                </button>
+          </div>
+
         </div>
-        <div class="column">
-          <img src="/dist/img/real1_2.jpg" alt="Snow" onclick="myFunction(this);">
+
+        <div class="realization-container">
+          <div class="text-container">
+            <h2>Kuchnia z szafą</h2>
+            <p>Kuchnia z frontami akrylowymi w białym połysku w połączeniu z czarną płytą laminowaną. Dopełnieniem jej
+              jest drewnopodobna szafa w niespotykanym wydaniu.</p>
+          </div>
+
+          <ul class="gallery">
+            <li class="thumbnail">
+              <img tabindex="0" src="dist/img/real2_1.jpeg" alt="" />
+            </li>
+            <li class="thumbnail">
+              <img tabindex="0" src="dist/img/real2_2.jpeg" alt="" />
+            </li>
+
+
+          </ul>
+ 
+          <div class="popup hidden">
+            <button aria-label="Zamknij popup" class="popup__close">X</button>
+            <img src="" alt="" class="popup__img" />
+            <button aria-label="Poprzednie zdjęcie" class="popup__arrow popup__arrow--left">
+              < </button>
+                <button aria-label="Następne zdjęcie" class="popup__arrow popup__arrow--right">
+                  >
+                </button>
+          </div>
+
         </div>
-        <div class="column">
-          <img src="/dist/img/real1_3.jpg" alt="Mountains" onclick="myFunction(this);">
+
+        <div class="realization-container">
+          <div class="text-container">
+            <h2>Łazienka</h2>
+            <p>Łazienka z płyty laminowanej z dodatkami lustrzanymi, które skutecznie powiększają przestrzeń + wyfrezowane oświetlenie LED pod szafkami.</p>
+          </div>
+
+          <ul class="gallery">
+            <li class="thumbnail">
+              <img tabindex="0" src="dist/img/real3_1.jpeg" alt="" />
+            </li>
+            <li class="thumbnail">
+              <img tabindex="0" src="dist/img/real3_2.jpeg" alt="" />
+            </li>
+            <li class="thumbnail">
+              <img tabindex="0" src="dist/img/real3_3.jpeg" alt="" />
+            </li>
+
+
+          </ul>
+
+          <div class="popup hidden">
+            <button aria-label="Zamknij popup" class="popup__close">X</button>
+            <img src="" alt="" class="popup__img" />
+            <button aria-label="Poprzednie zdjęcie" class="popup__arrow popup__arrow--left">
+              < </button>
+                <button aria-label="Następne zdjęcie" class="popup__arrow popup__arrow--right">
+                  >
+                </button>
+          </div>
+
         </div>
-        <div class="column">
-          <img src="/dist/img/real1_4.jpeg" alt="Lights" onclick="myFunction(this);">
-        </div>
-      </div>
-      
-      <div class="container">
-        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-    
-        <img id="expandedImg" style="width:100%">
-    
-        <div id="imgtext"></div>
-      </div>
-  
+        <div class="hero-img__shadow"></div>
+    </section>
+
     <!-- @include 'footer.kit' -->
 
-    </main>
+  </main>
 
 
 
-    <script src="dist/js/main.min.js"></script>
+  <script src="dist/js/main.min.js"></script>
 
 </body>
 
