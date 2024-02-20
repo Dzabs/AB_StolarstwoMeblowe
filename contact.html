@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aleksy B. Stolarstwo meblowe</title>
+    <title>Kontakt - Stolarstwo Meblowe Gdańsk | BoguckiMeble</title>
+    <meta name="description"
+    content="Skontaktuj się ze mną. Stolarstwo meblowe na wymiar w Trójmieście.">
+<meta name="keywords"
+    content="kontakt, telefon, mail, stolarstwo meblowe, stolarz,  meble na wymiar, Gdańsk, Trójmiasto, kuchnia na wymiar">
     <link rel="icon" type="image/x-icon" href="dist/img/fav_icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +26,7 @@
         <div class="nav-bar">
             <a href="index.html#home-anchor">
                 <div class="brand">
-                    <img class="brand__icon" src="dist/img/logo_without_background.png">
+                    <img class="brand__icon" alt="logo Aleksy Bogucki Stolarstwo Meblowe" src="dist/img/logo_without_background.png">
                     <div class="brand-name">
                         <p class="brand-name__top">Aleksy Bogucki</p>
                         <p class="brand-name__bottom">Stolarstwo meblowe</p>
@@ -30,17 +34,17 @@
                 </div>
             </a>
             <!-- NAV_MOBILE -->
-            <button class="burger-btn">
+            <button class="burger-btn" aria-label="Menu">
                 <i class="ti ti-menu-2 burger-menu active"></i>
                 <i class="ti ti-x burger-x "></i>
             </button>
             <nav class="burger-nav">
                 <ul class="burger-nav__items">
-                    <li><a href="index.html#home-anchor" class="burger-nav__item">Home</a></li>
-                    <li><a href="index.html#aboutUs-anchor" class="burger-nav__item">O mnie</a></li>
-                    <li><a href="index.html#offer-anchor" class="burger-nav__item">Oferta</a></li>
-                    <li><a href="realizations.html" class="burger-nav__item">Realizacje</a></li>
-                    <li></li><a href="contact.html" class="burger-nav__item">Kontakt</a></li>
+                    <li><a href="index.html#home-anchor" class="burger-nav__item" aria-label="Strona główna">Home</a></li>
+                    <li><a href="index.html#aboutUs-anchor" class="burger-nav__item" aria-label="Strona o mnie">O mnie</a></li>
+                    <li><a href="index.html#offer-anchor" class="burger-nav__item" aria-label="Oferta">Oferta</a></li>
+                    <li><a href="realizations.html" class="burger-nav__item" aria-label="Realizacje">Realizacje</a></li>
+                    <li></li><a href="contact.html" class="burger-nav__item" aria-label="Kontakt">Kontakt</a></li>
                 </ul>
             </nav>
             <!-- NAV_DESKTOP -->
@@ -72,27 +76,35 @@
                     </div>
                     <hr>
                     <div class="contact-data">
-                                <ul>
-                                    <li>
-                                        <i class="ti ti-brand-facebook"></i> <a
-                                            href="https://www.facebook.com/profile.php?id=61551214946385" target="_blank"
-                                            rel="noopener noreferrer">Aleksy Bogucki <br> <span>Stolarstwo Meblowe</span> </a>
-                                    </li>
-                                    <li><i class="ti ti-brand-instagram"></i>
-                                        <a href="https://www.instagram.com/aleksy_b/" target="_blank" rel="noopener noreferrer">
-                                            aleksy_b</a>
-                                    </li>
-                                </ul>
+                        <ul>
+                            <li>
+                                <i class="ti ti-brand-facebook"></i> <a
+                                    href="https://www.facebook.com/profile.php?id=61551214946385" target="_blank"
+                                    rel="noopener noreferrer">Aleksy Bogucki <br> <span>Stolarstwo Meblowe</span> </a>
+                            </li>
+                            <li><i class="ti ti-brand-instagram"></i>
+                                <a href="https://www.instagram.com/aleksy_b/" target="_blank" rel="noopener noreferrer">
+                                    aleksy_b</a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="hero-img__shadow"></div>
         </section>
-        <div class="footer-contact">
+        <div class="popup-container" id="popup-container">
+    <div class="wrapper">
+        <div id="cookie-popup" class="cookie-popup">
+            <p>Niniejsza witryna korzysta z plików cookie. Więcej informacji o cookies znajdziesz w naszej <a
+                    href="privacy-policy.html">Polityce prywatności</a> <button id="accept-cookie">Akceptuj</button></p>
+
+        </div>
+    </div>
+</div>        <div class="footer-contact">
             <footer class="footer">
 
     <div class="wrapper">
         <a href="index.html#home-anchor"">
             <div class="footer__brand">
-                <img class="footer__brand-icon" src="dist/img/logo_without_background.png">
+                <img class="footer__brand-icon" alt="logo Aleksy Bogucki Stolarstwo Meblowe" src="dist/img/logo_without_background.png">
                 <div class="footer__brand-name">
                     <p class="brand-name brand-name__top">Aleksy Bogucki</p>
                     <p class="brand-name brand-name__bottom">Stolarstwo meblowe</p>
@@ -107,11 +119,11 @@
                 <h3 class="footer__box-title">Nawigacja</h3>
                 <ul class="footer__box-list">
 
-                    <li class="footer__box-list-item"><a href="index.html#home-anchor">Home</a></li>
-                    <li class="footer__box-list-item"><a href="index.html#aboutUs-anchor">O mnie</a></li>
-                    <li class="footer__box-list-item"><a href="index.html#offer-anchor">Oferta</a></li>
-                    <li class="footer__box-list-item"><a href="realizations.html">Realizacje</a></li>
-                    <li class="footer__box-list-item"><a href="contact.html">Kontakt</a></li>
+                    <li class="footer__box-list-item"><a href="index.html#home-anchor" aria-label="Strona główna">Home</a></li>
+                    <li class="footer__box-list-item"><a href="index.html#aboutUs-anchor" aria-label="Strona o mnie">O mnie</a></li>
+                    <li class="footer__box-list-item"><a href="index.html#offer-anchor" aria-label="Oferta">Oferta</a></li>
+                    <li class="footer__box-list-item"><a href="realizations.html" aria-label="Realizacje">Realizacje</a></li>
+                    <li class="footer__box-list-item" aria-label="Kontakt"><a href="contact.html">Kontakt</a></li>
                 </ul>
             </div>
 
@@ -130,7 +142,7 @@
                         </a>
                     </li>
                     <hr class="privacy-policy-hr">
-                    <li class="footer__box-list-item privacy-policy"><a href="privacy_policy.html">Polityka prywatności</a></li>
+                    <li class="footer__box-list-item privacy-policy"><a href="privacy-policy.html" aria-label="Polityka prywatności">Polityka prywatności</a></li>
                 </ul>
             </div>
 
@@ -149,7 +161,7 @@
                     </li>
                     <li class="footer__box-list-item contact-data"><i class="ti ti-map-pin"></i>Gdańsk, Polska</li>
                     <hr class="privacy-policy-hr">
-                    <li class="footer__box-list-item privacy-policy"><a href="privacy_policy.html">Polityka prywatności</a></li>
+                    <li class="footer__box-list-item privacy-policy"><a href="privacy-policy.html">Polityka prywatności</a></li>
                 </ul>
             </div>
 
